@@ -11,3 +11,5 @@ add_lunch_combo sabreauto_6sx-eng
 add_lunch_combo sabreauto_6sx-user
 add_lunch_combo evk_6ul-eng
 add_lunch_combo evk_6ul-user
+add_lunch_combo wandboard-eng
+add_lunch_combo wandboard-user

@@ -1,0 +1,10 @@
+#!/system/bin/sh
+
+wb=$(cat /sys/class/gpio/gpio60/value)
+
+if [[ "$wb" == '0' ]]; then
+    echo 'REV B1'
+    echo 0 > /sys/class/gpio/gpio130/value
+    sleep 1
+    echo 1 > /sys/class/gpio/gpio130/value
+fi
